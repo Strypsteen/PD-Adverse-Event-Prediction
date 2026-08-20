@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+
+# ---------------------------------------------------------------------------
+# Restricted source data. The cohort CSVs are obtained under the Critical Path
+# for Parkinson's Integrated Database data-sharing agreement and must never be
+# committed or pushed. Nothing under Data/ is tracked, including the directory
+# itself - create it locally and drop the CSVs in (see README).
+# ---------------------------------------------------------------------------
+/Data/
+
+# Defence in depth: no patient-level table or fitted model anywhere in the tree,
+# wherever it may have been copied to. A trained forest is itself derived from
+# the restricted data, since its split thresholds come from patient values.
+# Nothing in this repository needs to track these types; if you ever have a
+# genuine exception, add it explicitly with `git add -f`.
+*.csv
+*.pkl
+*.npz
+
+# Training output and generated tables
+/Results/
+/paper/
+*_global_lock.lock
+*_fold_order.json
+
+# Cluster job logs
+slurm_*_out.txt
+slurm_*_err.txt

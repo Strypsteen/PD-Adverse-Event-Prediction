@@ -1,0 +1,10 @@
+# Versions are the ones the runs used; the code is not pinned to them, but the
+# random forest's handling of missing values needs scikit-learn >= 1.4 (NET-PD
+# LS-1 lacks five features in the joint model).
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+statsmodels==0.14.6
+betacal==1.1.0
+lifelines==0.30.0
+filelock==3.30.2

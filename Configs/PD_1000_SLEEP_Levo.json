@@ -1,0 +1,8 @@
+{
+  "dataset": "PD-1000",
+  "output": "sleep",
+  "X_fields": [
+    "DYSK",
+    "FUTURE_LEVO"
+  ]
+}

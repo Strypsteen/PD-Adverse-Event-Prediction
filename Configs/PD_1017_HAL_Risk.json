@@ -1,0 +1,12 @@
+{
+  "dataset": "PD-1017",
+  "output": "hallucination",
+  "X_fields": [
+    "DYSK",
+    "FUTURE_LEVO",
+    "MOCA",
+    "Gait",
+    "Sleepiness",
+    "PD_time"
+  ]
+}

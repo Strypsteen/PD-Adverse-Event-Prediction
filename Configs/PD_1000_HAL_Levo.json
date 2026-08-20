@@ -1,0 +1,8 @@
+{
+  "dataset": "PD-1000",
+  "output": "hallucination",
+  "X_fields": [
+    "DYSK",
+    "FUTURE_LEVO"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "dataset": "PD-1000",
+  "output": "dyskinesia",
+  "X_fields": [
+    "DYSK",
+    "FUTURE_LEVO"
+  ]
+}

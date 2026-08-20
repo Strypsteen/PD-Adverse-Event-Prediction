@@ -1,0 +1,28 @@
+{
+  "dataset": "PD-1000",
+  "output": "dyskinesia",
+  "X_fields": [
+    "DYSK",
+    "SEX",
+    "AGE",
+    "PD_age",
+    "BMI",
+    "UPDRS_III",
+    "UPDRS_II",
+    "UPDRS_I",
+    "HY",
+    "ON_OFF",
+    "FUTURE_LEVO",
+    "FUTURE_MedClass2",
+    "FUTURE_MedClass3",
+    "FUTURE_MedClass4",
+    "FUTURE_MedClass5",
+    "LEDD_years",
+    "PD_time",
+    "Hallucinations",
+    "Insomnia",
+    "Gait",
+    "Sleepiness",
+    "MOCA"
+  ]
+}

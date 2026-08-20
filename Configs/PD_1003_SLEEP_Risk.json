@@ -1,0 +1,12 @@
+{
+  "dataset": "PD-1003",
+  "output": "sleep",
+  "X_fields": [
+    "DYSK",
+    "FUTURE_LEVO",
+    "MOCA",
+    "Hallucinations",
+    "Insomnia",
+    "PD_time"
+  ]
+}
